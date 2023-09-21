@@ -1,3 +1,5 @@
-const Notification = ({ message }) => <p>{message}</p>;
+import { Text } from './Notification.styled';
+
+const Notification = ({ message }) => <Text>{message}</Text>;
 
 export default Notification;
